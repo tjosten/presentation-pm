@@ -211,8 +211,31 @@ q {
 }
 
 /* jira */
+
 div.jirateaser {
     padding-left: 500px;
+}
+
+div.features {
+}
+
+div.features div {
+    padding-top: 50px;
+    margin: 10px 10px;
+    display:inline-block;
+    width: 510px;
+    height: 125px;
+    text-align: center;
+    font-size: 50px;
+    background: rgba(255,255,255,0.5);
+    text-shadow: -1px -1px 2px rgba(100,100,100,0.9);
+    border-radius: 0.2em;
+    
+    -webkit-transition: 0.5s;
+    -moz-transition:    0.5s;
+    -ms-transition:     0.5s;
+    -o-transition:      0.5s;
+    transition:         0.5s;    
 }
 
 /*
