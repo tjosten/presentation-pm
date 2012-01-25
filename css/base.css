@@ -116,6 +116,10 @@ a:hover {
     opacity: 0;
 }
 
+.step.doKeep {
+    opacity: 0.5;
+}
+
 /* STEP SPECIFIC STYLES */
 
 h1 {
@@ -132,7 +136,7 @@ h1 {
 
 ul {
     padding-left: 25px;
-    margin-top: 15px;
+    margin-top: 30px;
 }
 
 li {
@@ -142,6 +146,11 @@ li {
 q {
     line-height: 1.2em !important;
     margin: 0;
+}
+
+cite {
+    font-style: italic;
+    color: rgb(150,150,150);
 }
 
 /* kk logo */
@@ -201,8 +210,9 @@ q {
     font-size: 75px;
 }
 
-#title h2 { 
-    margin-top: 50px;
+#title2 h2 { 
+    text-align:center;
+    font-size: 30px;
 }
 
 /* outline */

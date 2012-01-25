@@ -201,10 +201,15 @@
         window.scrollTo(0, 0);
         
         var step = el.stepData;
-        
+
         if ( active ) {
-            active.classList.remove("active");
+            if (active.dataset.keep) {
+                active.classList.add("doKeep");
+            } else {
+                active.classList.remove("active");
+            }
         }
+        el.classList.remove("doKeep");
         el.classList.add("active");
         
         impress.className = "step-" + el.id;
