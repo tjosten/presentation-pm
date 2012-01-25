@@ -99,6 +99,7 @@ a:hover {
 
     font-size: 48px;
     line-height: 1.5;
+
 }
 
 /* fade out inactive slides */
@@ -112,7 +113,7 @@ a:hover {
 }
 
 .step:not(.active) {
-    opacity: 0.3;
+    opacity: 0;
 }
 
 /* STEP SPECIFIC STYLES */
@@ -213,7 +214,7 @@ q {
 /* jira */
 
 div.jirateaser {
-    padding-left: 500px;
+    padding-left: 250px;
 }
 
 div.features {
