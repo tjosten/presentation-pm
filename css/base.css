@@ -213,6 +213,10 @@ q {
 
 /* jira */
 
+div.jira-showcase img {
+    width: 1000px;
+}
+
 div.jirateaser {
     padding-left: 250px;
 }
