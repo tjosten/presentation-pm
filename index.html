@@ -68,9 +68,11 @@
     <div id="jira-4" class="step slide" data-x="-80500" data-y="39750" data-scale="1" data-rotate-y="180">
         <h1>Projektmanagement</h1>
         <div style="margin-left:20px;float:right;width:300px;margin-top:20px;">
-            <cite>Das Projekt bezeichnet ein konkretes Vorhaben, an dem verschiedene Stakeholder beteidigt sein.</cite>
+            <cite>Das Projekt bezeichnet ein konkretes Vorhaben, an dem verschiedene Stakeholder beteidigt sind.</cite>
         </div>
         <ul>
+            <li>Operativ: z.B. Delegation von Aufgaben</li>
+            <li>Analytisch: z.B. Zeiterfassung
             <li>Wichtige Stichworte:
                 <ul>
                     <li>Tickets</li>
@@ -91,23 +93,71 @@
             <li>Delegation von Verantwortung</li>
             <li>Arbeitsprozesse transparent bearbeiten</li>
             <li>Historie eines Falles nachvollziehbar speichern</li>
+            <li>ggf. Kommunikation mit Kunden</li>
         </ul>
     </div>
 
     <div id="jira-6" class="step slide" data-x="-80500" data-y="39750" data-scale="1" data-rotate-y="360">
         <h1>Versionsverwaltung</h1>
+        <ul>
+            <li>Nahtlose Integration der Projektverwaltungs- in die Versionskontrollsoftware</li>
+            <li>z.B. Zuweisung verschiedener <em>VCS-Commits</em> zu einem JIRA-Ticket</li>
+        </ul>
+
+        <div class="_ticket"><strong>JIRA-Ticket #123</strong><br /> Fehler beim Anlegen neuer Kunden</div>
+        <div style="float:left;" class="_commit">#6f43ea: Updating SQL Stmt. (JIRA #123)</div>
+        <div style="float:left;" class="_commit">#52bca3: Updating Template (JIRA #123)</div>
+        <div style="float:left;" class="_commit">#ae2341: Updating Module (JIRA #123)</div>
+        <br style="clear:both" />
     </div>    
 
     <div id="jira-7" class="step slide" data-x="-80500" data-y="39750" data-scale="1" data-rotate-y="450">
         <h1>Workflows</h1>
+        <div style="background-image: url(img/jira/workflow-blur.png);height:588px;width:1000px;">
+            <div class="_hint" style="float:right;">
+                Workflows (<em>Arbeits-/Prozessabläufe</em>) bilden Abläufe innerhalb der Software ab, die für bestimmte
+                Benutzer oder Benutzergruppen eingerichtet werden können.
+            </div>
+        </div>
     </div>
+
+    <div id="jira-7.5" class="step slide" data-x="-80500" data-y="39750" data-scale="1" data-rotate-y="450">
+        <h1>Workflows</h1>
+        <div style="text-align:center;">
+        <img src="img/jira/workflow.png" style="height:550px"/>
+        </div>
+    </div>    
 
     <div id="jira-8" class="step slide" data-x="-80500" data-y="39750" data-scale="1" data-rotate-y="540">
         <h1>Berichte &amp; Analysen</h1>
+        <div style="border:0px solid #000;width:50%;float:left;text-align:center;">
+            <img src="img/jira/chart-2.png" />
+            <img src="img/jira/chart-4.png" />
+        </div>
+        <div style="border:0px solid #000;width:49%;float:right;text-align:center;">
+            <img src="img/jira/chart-1.png" />
+            <img src="img/jira/chart-5.png" />            
+        </div>
     </div>
 
     <div id="jira-9" class="step slide" data-x="-80500" data-y="39750" data-scale="1" data-rotate-y="630">
         <h1>Erweiterungen</h1>
+        <div style="text-align:center;font-size:30px;font-style:italic;float:right;margin:0px;width:auto;" class="_ticket">
+            http://developer.atlassian.com
+        </div>
+        <ul>
+            <li>Atlassian Marketplace / Plugin Exchange</li>
+            <li>Für Entwickler:
+            <ul>
+                <li>Eigene Erweiterungen entwickeln und auf dem Atlassian Marketplace verkaufen</li>
+            </ul>
+            </li>
+            <li>Für Endkunden:
+            <ul>
+                <li>Unter zahlreichen verfügbaren (und teilweise kostenlosen) Erweiterungen auswählen und die eigene JIRA-Installation nach Wünschen und Anforderungen anpassen</li>
+            </ul>
+            </li>
+        </ul>
     </div>
 
     <div id="jira-10" class="step" data-x="-80500" data-y="39750" data-scale="1" data-rotate-y="0">
@@ -115,31 +165,31 @@
     </div>
 
     <div id="jira-11" class="step jira-showcase" data-x="-83500" data-y="39750" data-scale="1" data-rotate-x="0">
-        <img src="img/jira/1.png" />
+        <img class="shadow" src="img/jira/1.png" />
     </div>
     
     <div id="jira-12" class="step jira-showcase" data-x="-83500" data-y="39750" data-scale="2" data-rotate-x="20">
-        <img src="img/jira/2.png" />
+        <img class="shadow" src="img/jira/2.png" />
     </div>
     
     <div id="jira-13" class="step jira-showcase" data-x="-83500" data-y="39750" data-scale="3" data-rotate-x="40">
-        <img src="img/jira/3.png" />
+        <img class="shadow" src="img/jira/3.png" />
     </div>
 
     <div id="jira-14" class="step jira-showcase" data-x="-83500" data-y="39750" data-scale="4" data-rotate-x="60">
-        <img src="img/jira/4.png" />
+        <img class="shadow" src="img/jira/4.png" />
     </div>
 
     <div id="jira-15" class="step jira-showcase" data-x="-83500" data-y="39750" data-scale="5" data-rotate-x="80">
-        <img src="img/jira/5.png" />
+        <img class="shadow" src="img/jira/5.png" />
     </div>
     
     <div id="jira-16" class="step jira-showcase" data-x="-83500" data-y="39750" data-scale="6" data-rotate-x="100">
-        <img src="img/jira/6.png" />
+        <img class="shadow" src="img/jira/6.png" />
     </div>
 
     <div id="jira-17" class="step jira-showcase" data-x="-83500" data-y="39750" data-scale="7" data-rotate-x="120">
-        <img src="img/jira/7.png" />
+        <img class="shadow" src="img/jira/7.png" />
     </div>    
 
     <!-- Helas hurren niet meer kneuken -->
