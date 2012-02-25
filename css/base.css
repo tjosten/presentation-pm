@@ -376,3 +376,16 @@ img.shadow {
    border-radius:10px;
 }
 
+#basecamo-4 {
+    font-family: 'PT Sans', sans-serif;
+}
+
+
+#basecamp-5 ul {
+    list-style: none;
+}
+
+#basecamp-5 ul li {
+    margin: 0 0 15px 0;
+}
+
