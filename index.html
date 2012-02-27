@@ -10,14 +10,16 @@
     <link href="http://fonts.googleapis.com/css?family=Open+Sans:regular,semibold,italic,italicsemibold|PT+Sans:400,700,400italic,700italic|PT+Serif:400,700,400italic,700italic" rel="stylesheet" />
     
     <link href="css/base.css" rel="stylesheet" />
+
+    <style type="text/css">
+        .note {
+            display: none;
+        }
+    </style>
 </head>
 <body>
 
 <div id="impress" class="impress-not-supported">
-
-    <div class="fallback-message">
-        <p>Your browser does NOT support to play this presentation.</p>
-    </div>
 
     <div id="title" class="step" data-x="-1000" data-y="-1500" data-keep="1">
         <h1>Softwaregestütztes Projektmanagement</h1>
@@ -55,6 +57,16 @@
     <div id="jira-2" class="step" data-x="-60000" data-y="42000" data-scale="50">
         <div class="jirateaser"><q>&raquo;JIRA is a project tracking tool for teams building great software. &laquo;</q></div>
     </div>
+
+    <div class="note">
+        <p style="font-weight:bold;">
+            &raquo;JIRA ist ein Projektverfolgungstool für Teams, die großartige Software erstellen wollen.&laquo;
+        </p>
+        <p>
+            In diesem Teil der Präsentation stellen wir Atlassian JIRA vor - ein Tool mitdem Anspruch, eine Lösung für den gesamten Ablauf der Projektverwaltung abzubilden. Wir stellen hier die Möglichkeiten der Software vor und bewerten die Vor- und Nachteile der Anwendung.
+        </p>
+    </div>
+
     <div id="jira-3" class="step" data-x="-80500" data-y="39750" data-scale="1" data-rotate-y="90">
         <div class="features">
             <div>Projektmanagement</div>
@@ -64,6 +76,12 @@
             <div>Berichte &amp; Analysen</div>
             <div>Erweiterungen</div>
         </div>
+    </div>
+
+    <div class="note">
+        <p>
+            Die Funktionalität der Software lässt sich in 6 Bereiche einteilen, welche auf dieser Folie abgebildet sind. Auf den folgenden Folien beschreiben wir kurz die einzelnen Kategorien und erläutern, in wie weit diese wichtig im Ablauf der Projektverwaltung sind und in wie weit sie diesen beeinflussen können.
+        </p>
     </div>
 
     <div id="jira-4" class="step slide" data-x="-80500" data-y="39750" data-scale="1" data-rotate-y="180">
@@ -84,6 +102,12 @@
         </ul>
     </div>
 
+    <div class="note">
+        <p>
+            Der Bereich <em>Projektmanagement</em> ist wohl der wichtigste Bereich der Software, welcher die meiste Funktionalität beinhaltet. Hier werden wichtige Stichworte aggregiert, auf welche wir in der Präsentation genauer eingehen. Es unterscheidet sich hier die operative von der analytischen Funktionalität.
+        </p>
+    </div>
+
     <div id="jira-5" class="step slide" data-x="-80500" data-y="39750" data-scale="1" data-rotate-y="270">
         <h1>Bug-Tracking</h1>
         <div style="margin-left:20px;float:right;width:300px;margin-top:20px;">
@@ -98,6 +122,12 @@
         </ul>
     </div>
 
+    <div class="note">
+        <p>
+            Im Bereich der operativen Funktionalität kommt das <em>Bug-Tracking</em> ins Spiel. Mit Hilfe von Tickets können große Aufgaben oder kleine Arbeitsschritte transparent im Team koordiniert und delegiert werden. Durch die Historie des gesamten Falles ist nachvollziehbar gespeichert, in welchem Zeitraum ein Ticket bearbeitet wurde und welche Team-Mitglieder wie lange mit der Bearbeitung beschäftigt gewesen sind.
+        </p>
+    </div>    
+
     <div id="jira-6" class="step slide" data-x="-80500" data-y="39750" data-scale="1" data-rotate-y="360">
         <h1>Versionsverwaltung</h1>
         <ul>
@@ -110,7 +140,13 @@
         <div style="float:left;" class="_commit">#52bca3: Updating Template (JIRA #123)</div>
         <div style="float:left;" class="_commit">#ae2341: Updating Module (JIRA #123)</div>
         <br style="clear:both" />
-    </div>    
+    </div>
+
+    <div class="note">
+        <p>
+            Bei Projekten im Bereich der Software-Entwicklung spielt die <em>Versionsverwaltung</em> eine sehr wichtige Rolle. Mit Hilfe von synergetischen Verbindungen zu herkömmlicher Versionsverwaltungssoftware wie z.B. git  wird die Protokollierung der erledigten Aufgaben noch transparenter.
+        </p>
+    </div>
 
     <div id="jira-7" class="step slide" data-x="-80500" data-y="39750" data-scale="1" data-rotate-y="450">
         <h1>Workflows</h1>
@@ -120,6 +156,12 @@
                 Benutzer oder Benutzergruppen eingerichtet werden können.
             </div>
         </div>
+    </div>
+
+    <div class="note">
+        <p>
+            Um Ordnung in das Chaos zu bringen, gibt es bei Atlassian JIRA so genannte <em>Workflows</em>. Hiermit können Abfolgen und Regeln erstellt werden, die für die verschiedenen Projektteilnehmer gelten und mit Hilfe der Software automatisch eingehalten werden. Dieses Modul ist dabei sehr dynamisch, d.h. es können einfach eigene Abfolgen erstellt werden, um die Software so gut wie möglich an die Bedürfnisse des Unternehmens anzupassen.
+        </p>
     </div>
 
     <div id="jira-7.5" class="step slide" data-x="-80500" data-y="39750" data-scale="1" data-rotate-y="450">
@@ -141,6 +183,12 @@
         </div>
     </div>
 
+    <div class="note">
+        <p>
+            Der analytische Teil der Software bietet grafische und textbasierte Analyselösungen für alle Anfragen des Projektmanagers. Es gibt verschiedenste Statistiken, die im Alltag der Projektverwaltung wichtig sind und informative Erkenntnisse bringen können.
+        </p>
+    </div>
+
     <div id="jira-9" class="step slide" data-x="-80500" data-y="39750" data-scale="1" data-rotate-y="630">
         <h1>Erweiterungen</h1>
         <div style="text-align:center;font-size:30px;font-style:italic;float:right;margin:0px;width:auto;" class="_ticket">
@@ -159,6 +207,12 @@
             </ul>
             </li>
         </ul>
+    </div>
+
+    <div class="note">
+        <p>
+            Atlassian JIRA ist eine Standardsoftware. Dementsprechend gibt es eine große Nachfrage nach Erweiterungen und individuellen Lösungen. Atlassian hat reagiert und den so genannten Marketplace gestartet, auf dem Entwickler ihre kostenpflichtigen und -freien Erweiterungen anbieten können.
+        </p>
     </div>
 
     <div id="jira-10" class="step" data-x="-80500" data-y="39750" data-scale="1" data-rotate-y="0">
